@@ -15,15 +15,15 @@ const columns = Math.floor(W / fontSize);
 const drops = Array(columns).fill(1);
 
 const texts = [
-  "안녕하세요🥳🎉🎊",
-  "A nho a xi nhô chụy",
-  "2",
+  "ehh hèm",
+  "Chuyện là",
+  "3",
   "1",
-  "🎂",
-  "26-09-2025", //Day of birth
-  "HAPPY BIRTHDAY", 
-  "Thanh Di˚ᴺᴺ˚",
-  "❤️🐒" //Your Name
+  "🎂🎂🎂",
+  "10/10/2025", //Day of birth
+  "HAPPY BIRTHDAY TO YOU", 
+  "KIM THỦY",
+  "Sinh nhựt zui zẽ nho" //Your Name
 
 ];
 
@@ -211,3 +211,4 @@ lastChangeTime = Date.now();
 lastCharTime = Date.now();
 
 setInterval(drawMatrixRain, 50);
+
